@@ -1,0 +1,36 @@
+html, body {
+height:100%;
+}
+.header {
+	background-color:blue;
+	height: 200px;
+}
+.content {
+	background-color:orange;
+	overflow: auto;
+	height: auto;
+}
+
+.footer {
+	background-color: green;
+}
+.main-content-container {
+	display:inline;
+	float:left;
+	width:80%;
+	height:100%;
+	background-color: cyan;
+}
+.nav-container {
+	display:inline;
+	float:left;
+	width:10%;
+	background-color: yellow;
+}
+.right-container {
+	display:inline;
+
+	float: right;
+	width:10%;
+	background-color: purple;
+} 

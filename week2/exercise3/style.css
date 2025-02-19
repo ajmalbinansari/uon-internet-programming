@@ -1,0 +1,24 @@
+body {
+ width: 1200px;
+ margin: auto;
+ height: 1000px;
+}
+section  {
+	width:536px;
+	float: left;
+	margin:16px;
+	padding:16px;
+	border-radius: 16px;
+}
+.csym019 {
+	background-color: teal;
+}
+.csym015 {
+	background-color: darkGrey;
+}
+.csym016 {
+	background-color: purple;
+}
+.csym017 {
+	background-color: orange;
+}
