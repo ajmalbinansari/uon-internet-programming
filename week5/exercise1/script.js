@@ -2,11 +2,11 @@
 function reduceOpacity(){
     var button = document.getElementById("circle");
     var circleOpacity = parseFloat(button.style.opacity);
-    button.style.opacity = circleOpacity - 0.1;
+    button.style.opacity = circleOpacity - 0.01;
 }
 function onClickCircle(){
     
-    setInterval(reduceOpacity, 1000)
+    setInterval(reduceOpacity, 10)
 }
 function onLoadFunction(){
     var button = document.getElementById("circle");
